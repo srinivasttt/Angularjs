@@ -1,0 +1,35 @@
+.navbar-custom {
+    background-color:#229922;
+    color:#ffffff;
+    border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color:transparent;
+}
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+img{
+    width:100px;
+    height:100px;
+}
+p{
+    padding-left:20px;
+
+}
+.item{
+    padding-left: 150px;
+    border-radius: 25px;
+    border: 2px solid #8AC007;
+
+
+}
+p{
+
+    font: italic bold 15px/30px Georgia, serif;
+}

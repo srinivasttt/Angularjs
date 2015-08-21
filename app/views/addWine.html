@@ -1,0 +1,18 @@
+<div class="container" ng-controller="addCtrl">
+    <h2>Add wine</h2>
+    <form role="form">
+        <div class="form-group">
+            <label for="email">Name:</label>
+            <input type="text" class="form-control" id="email" placeholder="Enter wine name">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Country:</label>
+            <input type="text" class="form-control" id="pwd" placeholder="Enter made in country">
+        </div>
+        <div class="form-group">
+            <label for="year">Year:</label>
+            <input type="text" class="form-control" id="year" placeholder="Enter made in year">
+        </div>
+        <button type="submit" class="btn btn-default" ng-click="createWine()">Submit</button>
+    </form>
+</div>

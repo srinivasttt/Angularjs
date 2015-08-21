@@ -1,0 +1,25 @@
+<nav class="navbar navbar-custom">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#/">Scoth.IO</a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#/add/">AddWine</a></li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="row" ng-controller="listCtrl">
+    <div class="col-sm-4" ng-repeat="x in wines">
+        <div class="item"><a href="#/detail/">
+            <img src="images/wine.jpg"></img>
+            <p>Name:{{x.name}}</p>
+            <p>Country: {{x.country}}</p>
+            <p>Year: {{x.year}}</p>
+        </a>
+        </div>
+
+    </div>
+</div>
